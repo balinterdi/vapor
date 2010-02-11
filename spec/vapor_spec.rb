@@ -6,10 +6,10 @@ require 'yaml'
 describe Vapor do
 
   before do
-    class Hash; include Cloudifiable; end
+    class Hash; include Vapor; end
   end
 
-  describe Cloudifiable do
+  describe Vapor::Cloudifiable do
     should "return correct rendered html cloud" do
       languages = { "Hungarian" => 10, "English" => 9, "French" => 7, "Spanish" => 8, "Catalan" => 4 }
       languages.cloudify.should.be.equal(%q(<span class="cw_10">Hungarian</span> <span class="cw_9">English</span> <span class="cw_8">Spanish</span> <span class="cw_7">French</span> <span class="cw_4">Catalan</span>))
