@@ -1,0 +1,1 @@
+- read all hashes to cloudify from a yaml file

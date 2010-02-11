@@ -1,0 +1,19 @@
+languages:
+  Hungarian: 10
+  English:  9
+  French: 7
+  Spanish:  8
+  Catalan: 4
+hobbies:
+  books: 10
+  economics: 6
+  hiking: 7
+  cycling: 7
+  music: 5
+prog_languages:
+  ruby: 10
+  clojure: 5
+  javascript: 6
+  java: 3
+  php: 2
+
